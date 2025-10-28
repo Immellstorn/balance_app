@@ -14,6 +14,6 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN composer global require laravel/installer
 RUN export PATH="~/.composer/vendor/bin:$PATH"
 
-WORKDIR /var/www/app
+WORKDIR /var/www/src
 COPY .. .
 
