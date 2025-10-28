@@ -33,7 +33,7 @@ docker exec -i php-balance php artisan migrate
 Запуск сидов для создания пользователей в БД
 
 ```bash
-docker-compose exec -i php-balance php artisan db:seed
+docker exec -i php-balance php artisan db:seed
 ```
 
 ## API взаимодействие
