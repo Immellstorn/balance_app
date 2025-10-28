@@ -5,7 +5,7 @@
 #### Проект можно поднять в docker, для этого нужно вызвать следующие команды из корневого каталога проекта
 
 ```cli
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 ### Конфигурации docker для php-fpm и nginx находятся в директории ```/docker```
